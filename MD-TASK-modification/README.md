@@ -11,3 +11,10 @@ For example, analyzing a 20 ns simulation trajectory of the leptin protein (cont
   </p>
 </figure>
 
+
+<figure>
+<p align="center" width="100%">
+  <img src="MD-TAKS-Running-Parallel.png">
+  <figcaption><h2 align="center">Fig.2 - MD-TAKS-Running-Parallel</h2></figcaption>
+  </p>
+</figure>
