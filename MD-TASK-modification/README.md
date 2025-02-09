@@ -15,6 +15,10 @@ For example, analyzing a 20 ns simulation trajectory of the leptin protein (cont
 <figure>
 <p align="center" width="100%">
   <img src="MD-TAKS-Running-Parallel.png">
-  <figcaption><h2 align="center">Fig.2 - MD-TAKS-Running-Parallel</h2></figcaption>
+  <figcaption><h2 align="center">Fig.2 - MD-TAKS running in parallel</h2></figcaption>
   </p>
 </figure>
+
+The modified MD-TASK can be found [here](https://github.com/quocbaongo/PythonScripts_MD_Analysis/tree/main/MD-TASK-modification/MD-TASK-program/MD-TASK-modified-program).Users can learn how to execute the modified version of the MD-TASK program by invoking **"python calc_network_updated.py --help"**. The Python script [calc_delta_update.py](https://github.com/quocbaongo/PythonScripts_MD_Analysis/blob/main/MD-TASK-modification/MD-TASK-program/MD-TASK-modified-program/calc_delta_update.py), can be used for further analysis of the raw data output from the [calc_network_updated.py](https://github.com/quocbaongo/PythonScripts_MD_Analysis/blob/main/MD-TASK-modification/MD-TASK-program/MD-TASK-modified-program/calc_network_updated.py) analysis.
+
+The [Simulation_trajectory](https://github.com/quocbaongo/PythonScripts_MD_Analysis/tree/main/MD-TASK-modification/Simulation_trajectory) directory contains the topology and trajectory files resulting from the leptin molecule simulation using the Gromacs simulation package. The "Validation_results" directory contains the RIN analysis outputs from both the original and modified MD-TASK programs, which were compared to ensure compatibility.
