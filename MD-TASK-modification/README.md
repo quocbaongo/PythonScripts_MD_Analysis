@@ -6,8 +6,8 @@ For example, analyzing a 20 ns simulation trajectory of the leptin protein (cont
 
 <figure>
 <p align="center" width="100%">
-  <img src="MD-TAKS-Running-Parallel.png" alt="init_result" style="width:100%">
-  <figcaption><h2 align="center">Fig.1 - Initial result caption.</h2></figcaption>
+  <img src="MD-TAKS-Running-Parallel.png">
+  <figcaption><h2 align="center">Fig.1 - MD-TASK running on sequential</h2></figcaption>
   </p>
 </figure>
 
