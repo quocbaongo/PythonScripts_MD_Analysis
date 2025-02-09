@@ -6,4 +6,6 @@ The standard workflow involves executing a python script named [SINAPs.py](https
   <img src="Screenshot from 2025-02-07 23-02-58.png" alt="SINAPs GUI"/>
 </p>
 
-Upon completion, the program outputs a comprehensive list of all identified interactions and their probabilities of occurrence throughout the simulation.
+Upon completion, the program outputs a list of all identified interactions and their probabilities of occurrence throughout the simulation.
+
+While SINAPs effectively identifies potential inter-residue contacts, its exhaustive analysis of all possible interactions can be computationally inefficient, particularly when focusing on specific interaction types.  For example, analyzing only aromatic interactions between a selected pair of amino acids requires the same computational resources as analyzing all possible interactions. To address this limitation, the original "SINAPs.py" script has been modified to enable targeted analysis of aromatic interactions between user-specified amino acid pairs.  The modified script is "Detecting_aromatic_interactions.py". Users can invoke "Detecting_aromatic_interactions.py --help" to view instructions on how to use the script. Unlike the original script, which only returns the total number of each type of aromatic interaction formed by a pair of amino acids throughout the simulation, the modified script provides information on the type of aromatic interactions in each structural frame of simulation, and a corresponding plot can be generated using the python script "".
