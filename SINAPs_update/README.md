@@ -6,7 +6,5 @@ The standard workflow involves executing a python script named [SINAPs.py](https
   <img src="Screenshot from 2025-02-07 23-02-58" alt="abc"/>
 </p>
 
-![Screenshot from 2025-02-07 23-02-58](https://github.com/user-attachments/assets/2f1ff9cb-64d7-4d28-ae67-e5354be24b2a)
-
 
 Upon completion, the program outputs a comprehensive list of all identified interactions and their probabilities of occurrence throughout the simulation.
