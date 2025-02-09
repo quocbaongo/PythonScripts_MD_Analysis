@@ -5,3 +5,11 @@ Principal Component Analysis (PCA) is a valuable technique in molecular dynamics
 <p align="center">
   <img src="Screenshot from 2024-11-05 23-02-58.png" />
 </p>
+
+While the Gromacs simulation package provides tools for PCA analysis via the **"gmx covar"** and **"gmx anaeig"** commands, it lacks the functionality to visualize and extract representative structures from specific regions of the conformational landscape.  To address this limitation, a Python program [PCA_extracting_frames.py](https://github.com/quocbaongo/PythonScripts_MD_Analysis/blob/main/Extraction_of_Minima_Structure_from_GROMACS_PCA/PCA_extracting_frames.py), has been developed to facilitate the extraction of representative structures.  Usage instructions can be displayed by executing the command **"python PCA_extracting_frames.py --help"**.
+
+Upon providing the required input parameters via command-line flags, the program generates a conformational landscape, as illustrated below.
+
+<p align="center">
+  <img src="Screenshot from 2024-11-05 23-02-58.png" />
+</p>
