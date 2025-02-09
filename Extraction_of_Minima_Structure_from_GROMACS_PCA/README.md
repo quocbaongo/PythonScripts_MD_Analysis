@@ -20,4 +20,4 @@ Users can then interact with this landscape and select regions of interest.  Cli
   <img src="Screenshot from 2025-02-09 02-40-17.png" />
 </p>
 
-The SimulationData directory contains the coarse-grained simulation trajectory and topology of the leptin-CRH2 complex, generated using the Gromacs simulation package.
+The [Simulation_trajectory](https://github.com/quocbaongo/PythonScripts_MD_Analysis/tree/main/Extraction_of_Minima_Structure_from_GROMACS_PCA/Simulation_trajectory) directory contains the coarse-grained simulation trajectory and topology of the leptin-CRH2 complex, generated using the Gromacs simulation package.
