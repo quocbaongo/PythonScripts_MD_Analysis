@@ -6,8 +6,8 @@ For example, analyzing a 20 ns simulation trajectory of the leptin protein (cont
 
 <figure>
 <p align="center" width="100%">
-  <img src="MD-TAKS-Running-Parallel.png">
-  <figcaption><h2 align="center">Fig.1 - MD-TASK running on sequential</h2></figcaption>
+  <img src="MD-TASK-Running-sequential.png">
+  <figcaption><h2 align="center">Fig.1 - Performance when running on sequential</h2></figcaption>
   </p>
 </figure>
 
@@ -15,7 +15,7 @@ For example, analyzing a 20 ns simulation trajectory of the leptin protein (cont
 <figure>
 <p align="center" width="100%">
   <img src="MD-TAKS-Running-Parallel.png">
-  <figcaption><h2 align="center">Fig.2 - MD-TASK running in parallel</h2></figcaption>
+  <figcaption><h2 align="center">Fig.2 - Performance when running in parallel</h2></figcaption>
   </p>
 </figure>
 
