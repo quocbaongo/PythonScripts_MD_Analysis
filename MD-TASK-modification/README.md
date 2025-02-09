@@ -4,14 +4,10 @@ The software constructs protein graphs and conducts subsequent analyses, such as
 
 For example, analyzing a 20 ns simulation trajectory of the leptin protein (containing 2279 atoms) sequentially took over 6 minutes to complete. In contrast, parallel processing with 5 CPUs reduced the analysis time to approximately 2 minutes.
 
-<p align="center">
-  <img src="MD-TAKS-Running-Parallel.png" >
-  <figcaption>MDN Logo</figcaption>
-</p>
-
 <figure>
-  <img
-  src="https://developer.mozilla.org/static/img/favicon144.png"
-  alt="The beautiful MDN logo.">
-  <figcaption>MDN Logo</figcaption>
+<p align="center" width="100%">
+  <img src="MD-TAKS-Running-Parallel.png" alt="init_result" style="width:100%">
+  <figcaption><h2 align="center">Fig.1 - Initial result caption.</h2></figcaption>
+  </p>
 </figure>
+
