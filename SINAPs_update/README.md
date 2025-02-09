@@ -3,7 +3,7 @@ Structural Interaction Network Analysis Protocols (SINAPs) is a Python software 
 The standard workflow involves executing a python script named [SINAPs.py](https://github.com/ParImmune/SINAPs/blob/main/SINAPs/SINAPs.py), which then presents a graphical user interface (GUI) for inputting the simulation trajectory and topology files.
 
 
-<img src="Screenshot from 2025-02-07 23-02-58" alt="abc">
+<img src="Screenshot from 2025-02-07 23-02-58.png" alt="abc">
 
 
 
