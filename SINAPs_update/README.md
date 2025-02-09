@@ -1,1 +1,1 @@
-
+  Structural Interaction Network Analysis Protocols (SINAPs) is a Python software developed by Bedart et al. (2022). The primary purpose of this tool is to efficiently identify key molecular interactions throughout protein simulations. The software is publicly available at [at GitHub repository](https://github.com/ParImmune/SINAPs). The original publication describing SINAPs can be accessed [here](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00854).
