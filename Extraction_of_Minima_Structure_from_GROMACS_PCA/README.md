@@ -11,5 +11,7 @@ While the Gromacs simulation package provides tools for PCA analysis via the **"
 Upon providing the required input parameters via command-line flags, the program generates a conformational landscape, as illustrated below.
 
 <p align="center">
-  <img src="Screenshot from 2024-11-05 23-02-58.png" />
+  <img src="Screenshot from 2025-02-08 00-29-15.png" />
 </p>
+
+Users can then interact with this landscape and select regions of interest.  Clicking on a region and closing the landscape window prompts the program to output suggested Gromacs commands for extracting representative structures from the selected region, as shown below.
