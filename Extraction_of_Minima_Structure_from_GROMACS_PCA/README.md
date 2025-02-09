@@ -15,3 +15,9 @@ Upon providing the required input parameters via command-line flags, the program
 </p>
 
 Users can then interact with this landscape and select regions of interest.  Clicking on a region and closing the landscape window prompts the program to output suggested Gromacs commands for extracting representative structures from the selected region, as shown below.
+
+<p align="center">
+  <img src="Screenshot from 2025-02-09 02-40-17.png" />
+</p>
+
+The SimulationData directory contains the coarse-grained simulation trajectory and topology of the leptin-CRH2 complex, generated using the Gromacs simulation package.
