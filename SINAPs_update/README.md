@@ -28,17 +28,18 @@ While SINAPs effectively identifies potential inter-residue contacts, its exhaus
 <figure>
 <p align="center" width="100%">
   <img src="HIS88A_HIS97A_per_step.png">
-  <figcaption><h2 align="center">"Type of aromatic interactions detected between HIS88 and HIS97 in each time step within leptin simulation</h2></figcaption>
+  <figcaption><h2 align="center">Type of aromatic interactions detected between HIS88 and HIS97 in each time step within leptin simulation</h2></figcaption>
   </p>
 </figure>
 
 The figure depicting detected type of aromatic interaction within each time step of the simulation trajectory can be generated using the python script [Plotting_aromatic_interactions.py](https://github.com/quocbaongo/PythonScripts_MD_Analysis/blob/main/SINAPs_update/Plotting_aromatic_interactions.py).
 
-
-
-
-
-
+<figure>
+<p align="center" width="100%">
+  <img src="HIS88_HIS97_aromatic_interactions_evolution.png">
+  <figcaption><h2 align="center">HIS88 and HIS97 aromatic interactions throughout leptin simulation</h2></figcaption>
+  </p>
+</figure>
 
 The [Simulation_trajectory](https://github.com/quocbaongo/PythonScripts_MD_Analysis/tree/main/SINAPs_update/Simulation_trajectory) directory contains the topology and trajectory files used for validation test.  These files represent a simulation of the human hormone leptin.
 
