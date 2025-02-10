@@ -17,15 +17,28 @@ Upon completion, the program outputs a list of all identified interactions and t
 
 While SINAPs effectively identifies potential inter-residue contacts, its exhaustive analysis of all possible interactions can be computationally inefficient, particularly when focusing on specific interaction types.  For example, analyzing only aromatic interaction between a selected pair of amino acids requires the same computational time as analyzing all possible interactions within the researched protein. To address this limitation, the original [SINAPs.py](https://github.com/ParImmune/SINAPs/blob/main/SINAPs/SINAPs.py) script has been modified to enable targeted analysis of aromatic interactions between user-specified amino acid pairs.  The modified script is [Detecting_aromatic_interactions.py](https://github.com/quocbaongo/PythonScripts_MD_Analysis/blob/main/SINAPs_update/Detecting_aromatic_interactions.py). Users can invoke **"python Detecting_aromatic_interactions.py --help"** to view instructions on how to use the script. Unlike the original script, which only returns the total number of each type of aromatic interaction formed by a pair of amino acids throughout the simulation, the modified script provides information on the type of aromatic interactions in each structural frame of simulation, as demonstrated in figures below
 
+<figure>
+<p align="center" width="100%">
+  <img src="HIS88A_HIS97A_summary.png">
+  <figcaption><h2 align="center">Summary the total number of each type of aromatic interactions detected between HIS88 and HIS97 throughout leptin simulation</h2></figcaption>
+  </p>
+</figure>
+
+
+<figure>
+<p align="center" width="100%">
+  <img src="HIS88A_HIS97A_per_step.png">
+  <figcaption><h2 align="center">"Type of aromatic interactions detected between HIS88 and HIS97 in each time step within leptin simulation</h2></figcaption>
+  </p>
+</figure>
+
+The figure depicting detected type of aromatic interaction within each time step of the simulation trajectory can be generated using the python script [Plotting_aromatic_interactions.py](https://github.com/quocbaongo/PythonScripts_MD_Analysis/blob/main/SINAPs_update/Plotting_aromatic_interactions.py).
 
 
 
 
 
 
-
-
-and a corresponding plot can be generated using the python script [Plotting_aromatic_interactions.py](https://github.com/quocbaongo/PythonScripts_MD_Analysis/blob/main/SINAPs_update/Plotting_aromatic_interactions.py).
 
 The [Simulation_trajectory](https://github.com/quocbaongo/PythonScripts_MD_Analysis/tree/main/SINAPs_update/Simulation_trajectory) directory contains the topology and trajectory files used for validation test.  These files represent a simulation of the human hormone leptin.
 
